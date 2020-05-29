@@ -1,6 +1,6 @@
 ## Todo app with Cypress + Cucumber.
 
-The app uses [https://www.npmjs.com/package/cypress-cucumber-preprocessor](cypress-cucumber-preprocessor) package.
+The app uses [cypress-cucumber-preprocessor](https://www.npmjs.com/package/cypress-cucumber-preprocessor) package.
 
 Files with Gherkin tests are placed in the `cypress/integration/` directory and given an extension of `.feature`. Each feature file can have their step definitions file in the folder created with the same name.
 
