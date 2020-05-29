@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Todo app with Cypress + Cucumber.
+
+The app uses [https://www.npmjs.com/package/cypress-cucumber-preprocessor](cypress-cucumber-preprocessor) package.
+
+Files with Gherkin tests are placed in the `cypress/integration/` directory and given an extension of `.feature`. Each feature file can have their step definitions file in the folder created with the same name.
+
+For example, `Login.js` should be present in the directory `cypress/integration/` and its step definition `(anyFilename.js)` can be present in the directory `cypress/integration/Login/` folder.
 
 ## Available Scripts
 
