@@ -17,7 +17,7 @@ const TaskForm = ({ setTitle, title, addTask }) => {
             />
           </div>
           <div className="control">
-            <Button classes="button is-info" text="Add Task" />
+            <Button classes="button is-info add-btn" text="Add Task" />
           </div>
         </div>
       </form>
