@@ -1,5 +1,5 @@
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
-var TodoPage = require("../../pom/TodoPage");
+var TodoPage = require("../../../pages/TodoPage");
 
 Given("I visit my app", () => {
   TodoPage.visit();
