@@ -15,7 +15,8 @@
     "build": "react-scripts build",
     "test": "cucumber-js",
     "eject": "react-scripts eject",
-    "cypress": "cypress open"
+    "cypress": "cypress open",
+    "pull-features": "git submodule update --remote task-features && cp -rf task-features/* cypress/integration"
   },
   "eslintConfig": {
     "extends": "react-app"
