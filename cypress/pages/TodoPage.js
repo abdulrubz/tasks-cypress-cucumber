@@ -18,4 +18,25 @@ function clickADeleteBtn() {
   cy.get(".deleteButton").first().click();
 }
 
-export { visit, type, clickAddBtn, isTaskLength, clickADeleteBtn };
+function clickTask() {
+  cy.get(".taskTitle").first().click();
+}
+
+function markAsDone() {
+  cy.get(".taskTitle").should("have.class", "completed");
+}
+
+function markAsUndone() {
+  cy.get(".taskTitle").should("not.have.class", "completed");
+}
+
+export {
+  visit,
+  type,
+  clickAddBtn,
+  isTaskLength,
+  clickADeleteBtn,
+  clickTask,
+  markAsDone,
+  markAsUndone,
+};
